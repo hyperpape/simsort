@@ -12,12 +12,12 @@ Compression](https://justinblank.com/notebooks/fileordereffectsoncompression.htm
 will generate an ordered list of files in the target directory. The algorithm 
 can be one of:
 
-- `--only-extensions` groups files with the same extensions together
-- `--byte-distributions` groups files based on the distribution of bytes within them
-- `--tsp` attempts to order files by similarity
+- `only-extensions` groups files with the same extensions together
+- `byte-distributions` groups files based on the distribution of bytes within them
+- `tsp` attempts to order files by similarity
 
-In principle `--tsp` will take the most time, but give the best gains, while 
-`--only-extensions` will be the fastest.  
+In principle `tsp` will take the most time, but give the best gains, while 
+`only-extensions` will be the fastest.  
 
 To create a tar file, you can use the command line:
 
