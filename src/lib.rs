@@ -83,10 +83,10 @@ enum Algorithm {
 impl Algorithm {
     fn max_batch(&self) -> usize {
         match self {
-            Self::Tsp => 50000,
+            Self::Tsp => 10000,
             Self::ByteDistributions => usize::MAX,
             Self::OnlyExtensions => usize::MAX,
-            Self::BinsortOriginal => 100000,
+            Self::BinsortOriginal => 10000,
         }
     }
 
