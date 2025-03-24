@@ -49,6 +49,6 @@ batch separately, then concatenate them into a final ordering.
 
 ## Limitations
 
-Though simsort generally is able to re, there are cases (e.g. a 
-checkout of the linux kernel), where it produces worse results. I'm hoping to
-diagnose and fix such cases.
+Though simsort generally is able to produce smaller archives than just running
+tar with compression, there are cases (e.g. a checkout of the linux kernel),
+where it produces worse results. I'm hoping to diagnose and fix such cases.
